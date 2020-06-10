@@ -1,6 +1,6 @@
 contract C {
     uint immutable x;
-    constructor() initX public {
+    constructor() initX {
     }
 
     modifier initX() {

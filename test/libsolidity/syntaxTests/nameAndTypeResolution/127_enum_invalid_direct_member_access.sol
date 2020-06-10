@@ -1,6 +1,6 @@
 contract test {
     enum ActionChoices { GoLeft, GoRight, GoStraight, Sit }
-    constructor() public {
+    constructor() {
         choices = Sit;
     }
     ActionChoices choices;

@@ -1,6 +1,6 @@
 contract C {
     uint immutable x;
-    constructor() readX public {
+    constructor() readX {
         x = 3;
     }
 

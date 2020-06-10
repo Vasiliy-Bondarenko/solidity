@@ -1,7 +1,7 @@
 contract B {
     uint immutable x;
 
-    constructor() readX public {
+    constructor() readX {
         x = 3;
     }
 

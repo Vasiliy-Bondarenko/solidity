@@ -1,6 +1,6 @@
 contract C {
     uint immutable x;
-    constructor() public {
+    constructor() {
         while (true)
             x = 1;
     }

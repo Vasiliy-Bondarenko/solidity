@@ -3,7 +3,7 @@ contract B {
 }
 
 contract C is B {
-    constructor() public {
+    constructor() {
         x = 3;
     }
 }

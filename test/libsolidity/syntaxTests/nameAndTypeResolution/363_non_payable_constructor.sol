@@ -1,5 +1,5 @@
 contract C {
-    constructor() public { }
+    constructor() { }
 }
 contract D {
     function f() public returns (uint) {

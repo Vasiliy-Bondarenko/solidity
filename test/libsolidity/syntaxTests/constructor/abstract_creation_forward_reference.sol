@@ -6,7 +6,7 @@ contract Test {
 }
 
 contract Parent {
-    constructor(address _address) public {}
+    constructor(address _address) {}
 }
 
 contract Child is Parent {

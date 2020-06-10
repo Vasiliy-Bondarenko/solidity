@@ -1,7 +1,7 @@
 contract test {
     enum Paper { Up, Down, Left, Right }
     enum Ground { North, South, West, East }
-    constructor() public {
+    constructor() {
         Ground(Paper.Up);
     }
 }

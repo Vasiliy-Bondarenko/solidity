@@ -1,6 +1,6 @@
 contract C {
     uint immutable x = 3;
-    constructor() public {
+    constructor() {
         x++;
     }
 }

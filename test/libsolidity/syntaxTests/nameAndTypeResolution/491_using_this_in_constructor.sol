@@ -1,5 +1,5 @@
 contract C {
-    constructor() public {
+    constructor() {
         this.f();
     }
     function f() pure public {

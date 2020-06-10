@@ -1,7 +1,7 @@
 contract B {
     uint immutable x;
 
-    constructor() public {
+    constructor() {
         x = xInit();
     }
 

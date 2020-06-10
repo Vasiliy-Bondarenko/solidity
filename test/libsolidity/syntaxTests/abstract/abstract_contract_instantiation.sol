@@ -1,5 +1,5 @@
 abstract contract AbstractContract {
-    constructor() public { }
+    constructor() { }
     function utterance() public returns (bytes32) { return "miaow"; }
 }
 
